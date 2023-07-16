@@ -1,3 +1,3 @@
-# plugin-momentum-trail
+# Bellows Momentum Trail Plugin
 
-[https://bellows.dev](https://bellows.dev)
+[https://bellows.dev/docs/plugins/momentum-trail](https://bellows.dev/docs/plugins/momentum-trail)
