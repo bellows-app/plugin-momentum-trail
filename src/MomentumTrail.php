@@ -43,6 +43,12 @@ class MomentumTrail extends Plugin implements Deployable, Installable
                         echo "{}" > resources/js/routes.json
                     fi
                     SCRIPT,
+                    <<<'SCRIPT'
+                    if [ ! -d resources/types ]; then
+                        echo "Creating resources/types"
+                        mkdir resources/types
+                    fi
+                    SCRIPT,
                     Artisan::inDeployScript('trail:generate'),
                 ],
             )
