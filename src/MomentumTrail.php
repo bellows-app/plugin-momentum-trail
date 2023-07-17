@@ -29,6 +29,7 @@ class MomentumTrail extends Plugin implements Deployable, Installable
                 'trail.output.typescript' => "resource_path('types/routes.d.ts')",
             ])
             ->gitIgnore('resources/js/routes.json')
+            ->gitIgnore('resources/types/routes.d.ts')
             ->publishTag('trail-config');
     }
 
